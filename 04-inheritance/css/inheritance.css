@@ -1,0 +1,30 @@
+body {
+    font-family: arial;
+    margin: auto;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+p {
+    color: #ff6600;
+    border-left: 20px solid;
+    border-color: #bd8100;
+    margin-left: 70px;
+    padding-left: 10px;
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+h1,
+h2,
+h3 {
+    color: #bd8100;
+}
+
+li {
+    color: #bd8100;
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+rojo: #bd8100 naranja

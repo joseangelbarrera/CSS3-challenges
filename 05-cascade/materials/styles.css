@@ -1,43 +1,68 @@
-/* reset browser styles */
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html {
+    margin: 0px;
+    background-color: #cde6ff;
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
 body {
-	line-height: 1.2;
+    background-color: #cde6ff;
+    color: #b1967c;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0px auto;
+    width: 800px
 }
-ol { 
-	padding-left: 1.4em;
-	list-style: decimal;
-}
-ul {
-	padding-left: 1.4em
-	list-style: square;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-} 
-/* end reset browser styles */
 
-/* basic layout -- 2 columns */
+h1 {
+    display: block;
+    margin: auto;
+}
+
+.bullet { float: left;
+margin-right: 16px;
+margin-bottom: 16px;
+}
+.green {
+
+    border-bottom: 2px solid;
+border-color: white;}
+
 .main {
-	float: left;
-	width: 580px;
-}
-.sidebar {
-	margin-left: 600px;
-	padding: 15px;
-	background: #E9F5FE;
+    background-color: #cde6ff;
+    float: left;
+    width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
 
+.first {
+    font-family: arial;
+    font-size: 1.3em;
+    color: #6a94cc;
+}
+
+header {
+    font-family: verdana;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #e8a064;
+}
+
+.big {
+    color: #666666;
+    font-size: 1.2em;
+    line-height: 28px;
+    margin-left: 45px;
+    clear: both;  
+}
+
+.sidebar {
+    float: left;
+    width: 220px;
+    padding: 2%;
+    background: #E9F5FE;
+}
